@@ -32,6 +32,7 @@ function App() {
        <div className='circle'>
       <div className='circles'></div>
         <div className='circle-one'></div>
+        <div className="circle-two"></div>
       
       </div>
       
