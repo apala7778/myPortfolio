@@ -30,11 +30,11 @@
     
     
     font-size: 1rem;
-    
+    margin-left: -170px;;
 }
 .nav > div {
    
-   padding: 5px;
+   padding-right: 50px;
     
 }
 .icons {
