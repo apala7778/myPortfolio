@@ -1,4 +1,5 @@
 import  './App.css';
+import Project from './components/Projects'
 function App() {
   return (
     <div className="header">
@@ -37,7 +38,9 @@ function App() {
       </div>
       
       </div>
+      < Project />
     </div>
+    
   );
 }
 
