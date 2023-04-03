@@ -4,7 +4,7 @@ function App() {
   return (
     <div className="header">
       <div className="menu">
-        <diV className="portfolio">portfolio</diV>
+        <div className="portfolio">portfolio</div>
         <div className="nav">
           <div className="nav-projects">projects</div>
           <div className="nav-tech">Technologies</div>
