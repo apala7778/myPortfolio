@@ -104,7 +104,8 @@
     display: flex;
     flex-direction: column;
     width: 50%;
-    padding: 50px;
+    padding-left: 30px;
+    padding-top: 60px;
   
     
 }
@@ -116,6 +117,7 @@
 }
 
 .highlighting {
+    text-align: center;
     font-size: 60px;
     font-weight: 600;
     background: -webkit-linear-gradient(45deg,rgb(177, 30, 221) , rgb(17, 212, 247));
@@ -136,6 +138,8 @@
 }
 
 .mygithub > button {
+    display: block;
+    
     width: 150px;
     height: 50px;
      border-radius: 25px;
@@ -186,8 +190,8 @@
         background: linear-gradient(135deg ,rgb(177, 30, 221) , rgb(17, 212, 247));
         z-index: 2;
         position: absolute;
-        top: 250px;
-        right: 300px;
+        top: 200px;
+        right: 370px;
         box-shadow:  0px 5px 10px 3px rgba(154, 216, 240, 0.3);
    }
     
@@ -207,18 +211,37 @@
         text-align: center;
        
       }
+      .mygithub > button {
+        margin-left: auto;
+        margin-right: auto;
+      }
 
       .hero {
         flex-direction: column;
       }
 
       .heading , .highlighting {
+        width: 40vh;
+
         font-size: 40px;
+      }
+      .about {
+        width: 40vh;
+        flex-wrap: wrap;
+        text-align:justify;
+       
+      }
+      
+      .circle-one {
+        width: 400px;
+        height: 400px;
+        right: 400px;
+        top: 100px;
       }
 
       .circle-two{
          left:260px;
-         top: 1100px;
+         top: 800px;
       }
       .circles {
         left: 12px;
