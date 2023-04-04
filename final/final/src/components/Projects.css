@@ -19,7 +19,11 @@ h1{
 .content {
     display: flex;
     flex-direction: row;
-   justify-content: space-evenly;
-   align-content: center;
+    flex-wrap: wrap;
+ 
+   
     
+}
+.content > * {
+    flex: 0 0 33.333%;
 }

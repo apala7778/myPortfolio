@@ -1,10 +1,15 @@
 import React from 'react'
 import './Tech.css'
+import {SiTailwindcss} from 'react-icons/si';
+import {SiExpress} from 'react-icons/si';
+import {BsGit} from 'react-icons/bs';
+import {SiPostgresql} from 'react-icons/si';
+import {SiMongodb} from 'react-icons/si';
 
 
 const Tech = () => {
   return (
-    <div className='techno'>
+    <div className='techno' id='tech' >
      <h1>Technologies</h1> 
      <div className='cards-1' >
        <div className='mini'>
@@ -36,27 +41,27 @@ const Tech = () => {
       <div className='cards-2' >
        <div className='mini'>
          <div className='carde'> 
-         <ion-icon name="logo-react"> </ion-icon>
+         <SiTailwindcss  size='3.75rem' className='react-icon'/>
           </div>
       </div>
       <div className='mini'>
         <div className='carde'>
-        <ion-icon name="logo-react"> </ion-icon>
+        <SiExpress size='3.75rem' className='react-icon' />
         </div>
       </div>
       <div className='mini'>
         <div className='carde'>
-        <ion-icon name="logo-react"> </ion-icon>
+        <BsGit size='3.75rem'  className='react-icon'/>
         </div>
       </div>
       <div className='mini'>
         <div className='carde'>
-        <ion-icon name="logo-react"> </ion-icon>
+        <SiPostgresql size='3.75rem'  className='react-icon' />
         </div>
       </div>
       <div className='mini'>
         <div className='carde'>
-        <ion-icon name="logo-react"> </ion-icon>
+       <SiMongodb size='3.75rem'  className='react-icon' />
         </div>
       </div>
       </div>

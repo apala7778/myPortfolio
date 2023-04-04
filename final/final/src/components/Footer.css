@@ -36,8 +36,8 @@
     justify-content: space-between;
 }
 
-.my > ion-icon {
-    margin: 0px 10px 10px 0px;
+.my > * {
+    margin: 0px 15px 15px 0px;
     width: 20px;
     height: 20px;
 }
