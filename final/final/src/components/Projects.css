@@ -6,24 +6,41 @@
     background: #00031e;
     
     box-sizing: border-box;
-    padding: 12%;
+    margin-bottom: 40px;
+    
     
 
 }
-h1{
+h1{  
+   
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
     color: rgb(255, 255, 255);
     font-size: 50px;
 }
 
 .content {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+   
+    display: grid;
+    grid-template-columns: 470px 470px 440px;
+    grid-template-rows: auto;
+    
+   
  
    
     
 }
 .content > * {
-    flex: 0 0 33.333%;
+   margin: 15px;
+}
+
+@media screen and (max-width:600px) {
+    .content {
+        padding: -10%;
+        display: flex;
+        flex-direction: column;
+        
+    }
 }

@@ -7,6 +7,7 @@
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
+    scroll-behavior: smooth;
     
     
 }
@@ -54,6 +55,27 @@
     color: white;
     font-weight: 600;
 }
+
+ /* .portfolio{
+    position: relative;
+    padding: 0px 10px;
+    letter-spacing: 0.5px;
+}
+
+ .portfolio:after {
+    content: "";
+    position: absolute;
+    background: linear-gradient(45deg,rgb(177, 30, 221) , rgb(17, 212, 247));
+    height: 3px;
+    width: 100%;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+    
+}
+.portfolio:after:hover {
+    width:100%;
+} */
 .icons {
     display: flex;
     flex-direction: row;
@@ -168,6 +190,37 @@
         box-shadow:  0px 5px 10px 3px rgba(154, 216, 240, 0.3);
    }
     
+
+   @media screen and (max-width:600px) {
+      .menu {
+        flex-direction: column;
+        justify-content: center;
+      }
+      .nav {
+        flex-direction: column;
+      }
+      .portfolio {
+        left: 50%;
+        text-align: center;
+       
+      }
+
+      .hero {
+        flex-direction: column;
+      }
+
+      .heading , .highlighting {
+        font-size: 40px;
+      }
+
+      .circle-two{
+         left:260px;
+         top: 1000px;
+      }
+      .circles {
+        left: 12px;
+      }
+   }
 
 
   

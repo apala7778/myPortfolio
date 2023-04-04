@@ -2,11 +2,12 @@
     margin: 0;
     padding: 10px;
     width: 100%;
-    margin-top: 1000px;
     
+    margin-top: 700px;
     box-sizing: border-box;
     background: #00031e;
     color: white;
+    bottom: 200px;
    
    
      
@@ -49,4 +50,32 @@ h1 {
 }
 .react-icon {
     padding: 22%;
+}
+
+@media screen and (max-width:600px)  {
+    .techno {
+        margin-top: 2000px;
+    }
+    .carde  {
+        width: 70px;
+        height: 70px;
+        margin: 6px;
+    }
+    .cards-1 , .cards-2 {
+        left: 50px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-left: 2vh;
+    }
+    .carde >ion-icon {
+        width: 60px;
+        height: 60px;
+        padding: 12%;
+    
+    }
+    .react-icon {
+        padding: 12%;
+    }
 }

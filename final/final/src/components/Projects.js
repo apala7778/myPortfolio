@@ -25,12 +25,13 @@ export default function Projects () {
     <div className='project' id='project'>
       <h1> Projects </h1>
    
-      <div className='content' >
+       <div className='content' >
         { cards }
       
       
       
-      </div>
+      </div> 
+     
       
      
       
