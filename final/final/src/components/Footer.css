@@ -1,20 +1,24 @@
 .final {
    margin: 0;
-   padding: 0%;
+   padding: 0;
     background: #00031e;
     width: 100%;
   
   box-sizing: border-box;
   display: flex;
+  bottom: 0;
   
 }
 .last {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-   padding-left: 30%;
+   padding-left: 25%;
    padding-top: 10%;
    padding-bottom: 4%;
+}
+.last > * {
+     padding: 10px;
 }
 .free {
     
@@ -24,7 +28,7 @@
 }
 
 .email {
-    margin: 0px 20px 20px ;
+    margin: 0px 10px 10px ;
     text-decoration: none;
     color: gray;
 
@@ -40,4 +44,29 @@
     margin: 0px 15px 15px 0px;
     width: 20px;
     height: 20px;
+
+}
+
+@media screen and (max-width:600px) {
+    .final {
+        width: 100%;
+        height: auto;
+       
+        
+
+       
+    }
+    .last {
+       
+        flex-direction: column;
+        justify-content: center;
+    }
+     .last > * {
+        padding-bottom: 10px;
+     }
+     .email {
+        margin: 0px -5px 0px 0px ;
+     }
+
+    
 }

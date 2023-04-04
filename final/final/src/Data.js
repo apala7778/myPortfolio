@@ -1,7 +1,7 @@
 
 export default [
     {
-        id: 10,
+        id: 0,
         src:"netflix.png",
         title: "Netflix clone",
         tech: "ReactJs , HTML5 , CSS3",
@@ -10,7 +10,7 @@ export default [
 
     },
     {
-        id: 20,
+        id: 1,
         src:"meme.png",
         title: "Meme Generator",
         tech: "ReactJs , HTML5 , CSS3",
@@ -19,7 +19,7 @@ export default [
 
     },
     {
-        id: 30,
+        id: 2,
         src:"weather.png",
         title: "weather App",
         tech: "ReactJs , HTML5 , CSS3",
@@ -28,7 +28,7 @@ export default [
 
     },
     {
-        id: 40,
+        id: 3,
         src:"portfolio.png",
         title: "portfolio",
         tech: "ReactJs , HTML5 , CSS3",
@@ -37,8 +37,8 @@ export default [
 
     },
     {
-        id: 50,
-        src:"air.png",
+        id: 4,
+        src:"airbnb.png",
         title: "AirBnB Clone",
         tech: "ReactJs , HTML5 , CSS3",
         live: "",
@@ -46,7 +46,7 @@ export default [
 
     },
     {
-        id: 60,
+        id: 5,
         src:"digital.png",
         title: "Digital Travelogue",
         tech: "ReactJs , HTML5 , CSS3",

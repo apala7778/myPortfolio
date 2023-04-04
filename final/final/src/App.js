@@ -20,7 +20,7 @@ function App() {
         <div className="nav">
           <div className="nav-projects"><Link to="#project">Projects</Link></div>
           <div className="nav-tech"> <Link to='#tech' >Technologies</Link>  </div>
-          <div className="nav-social"> <a href="https://apalawrites.hashnode.dev/" target='_blank' >Blogs</a></div>
+          <div className="nav-social"> <a href="https://apalawrites.hashnode.dev/" target='_blank'  className='blog'>Blogs</a></div>
            </div>
         <div className="icons">
         <a href="https://github.com/apala7778" target='_blank'><AiFillGithub size='1.7rem' color='white' /></a>
@@ -33,11 +33,13 @@ function App() {
      <div className='hero'>
       <div className='mid'>
         <div className='heading'> <span className="highlighting">Hello, I'm Apala Gupta ,  </span>
-            Frontend developer.
+            FrontEnd Developer.
         </div>
         <div className='about'>
           Information Technology undergrade, seeking to apply
           competent development skills with collaboration, communication and passion.
+          I look forward to build my skills and contributing to the development of open-source projects,
+          I also write technical blogs. Reach me for any Freelance opportunity.
         </div>
         <div className='mygithub'>
           <button> my github</button>

@@ -59,11 +59,11 @@ const Tech = () => {
         <SiPostgresql size='3.75rem'  className='react-icon' />
         </div>
       </div>
-      <div className='mini'>
+      {/* <div className='mini'>
         <div className='carde'>
        <SiMongodb size='3.75rem'  className='react-icon' />
-        </div>
-      </div>
+        </div> 
+      </div> */}
       </div>
      
    
