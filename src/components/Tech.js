@@ -5,6 +5,11 @@ import {SiExpress} from 'react-icons/si';
 import {BsGit} from 'react-icons/bs';
 import {SiPostgresql} from 'react-icons/si';
 import {SiMongodb} from 'react-icons/si';
+import {SiJavascript} from 'react-icons/si';
+import {FaReact} from 'react-icons/fa';
+import {AiFillHtml5} from 'react-icons/ai';
+import {DiCss3} from 'react-icons/di';
+import {DiNodejsSmall} from 'react-icons/di';
 
 
 const Tech = () => {
@@ -14,27 +19,27 @@ const Tech = () => {
      <div className='cards-1' >
        <div className='mini'>
          <div className='carde'> 
-         <ion-icon name="logo-react"> </ion-icon>
+         <FaReact size='3.75rem' color='white' className='react-icon' />
           </div>
       </div>
       <div className='mini'>
         <div className='carde'>
-        <ion-icon name="logo-javascript"></ion-icon>
+        <SiJavascript size='3.75rem' color='white' className='react-icon' />
         </div>
       </div>
       <div className='mini'>
         <div className='carde'>
-        <ion-icon name="logo-html5"></ion-icon>
+       < AiFillHtml5 size='3.75rem' color='white' className='react-icon' />
         </div>
       </div>
       <div className='mini'>
         <div className='carde'>
-        <ion-icon name="logo-css3"></ion-icon>
+        < DiCss3 size='3.75rem' color='white' className='react-icon' />
         </div>
       </div>
       <div className='mini'>
         <div className='carde'>
-        <ion-icon name="logo-nodejs"></ion-icon>
+        < DiNodejsSmall size='3.75rem' color='white' className='react-icon' />
         </div>
       </div>
       </div>
