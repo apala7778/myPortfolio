@@ -1,0 +1,52 @@
+.techno {
+    margin: 0;
+    padding: 10px;
+    width: 100%;
+    margin-top: 1000px;
+    
+    box-sizing: border-box;
+    background: #00031e;
+    color: white;
+   
+   
+     
+   
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+}
+.cards-1 , .cards-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.cards-1 {
+    padding-left: 10vh;
+}
+.cards-2 {
+   padding-left: 10vh;
+}
+
+.carde {
+    border: 2.5px solid transparent;
+    border-radius: 10%;
+    background: 
+      linear-gradient(to right, #00031e,#00031e), 
+      linear-gradient(45deg,rgb(177, 30, 221) , rgb(17, 212, 247)); 
+    background-clip: padding-box, border-box;
+    background-origin: padding-box, border-box;
+    width: 100px;
+    height: 100px;
+}
+.carde >ion-icon {
+    width: 60px;
+    height: 60px;
+    padding: 22%;
+
+}
+.react-icon {
+    padding: 22%;
+}

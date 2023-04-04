@@ -1,22 +1,22 @@
 import React from "react";
 import "./Cards.css";
-import photu from '../UPCHAAR-ICON.png';
 
-const Cards = () => {
+
+const Cards = (props) => {
   return (
     <div className="card">
       <div className="card-row">
         <div className="circle-card">
           <div className="image">
-            <img src={photu} alt=""  className="image-pro"/>
+            <img src={`../images/${props.item.src}`}alt=""  className="image-pro"/>
           </div>
           <div className="desc">
-            <h3 className="name-pro">Netflix clone</h3>
-            <p className="stack"> Reactjs CSS3 HTML5 </p>
+            <h3 className="name-pro">{props.item.title}</h3>
+            <p className="stack"> {props.item.tech} </p>
           </div>
           <div className="buttons">
-            <button className="button-1" >Live Project</button>
-            <button className="button-2">Github</button>
+          <a href={props.item.live} target="_blank"><button className="button-1" >Live</button></a>
+          <a href={props.item.github} target="_blank"> <button className="button-2"> Github</button> </a>
           </div>
 
         </div>

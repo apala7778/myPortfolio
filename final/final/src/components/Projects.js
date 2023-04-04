@@ -1,29 +1,43 @@
 import React from 'react'
 import Card from './Cards'
 import './Projects.css';
+import data from '../Data'
 
-const Projects = () => {
+export default function Projects () {
+            const cards = data.map((item) => {
+              return (
+                
+                  
+                  <Card
+                      key ={item.id}
+                      // src={item.src}
+                      // title={item.title}
+                      // tech={item.tech}
+                      // live={item.live}
+                      // github={item.github}
+                      item={item}
+                  
+                  /> 
+                
+              )
+            })
   return (
-    <div className='project'>
-      <div className="hss"> Projects </div>
+    <div className='project' id='project'>
+      <h1> Projects </h1>
    
       <div className='content' >
-      <Card />
-      <Card /> 
-      <Card />
+        { cards }
       
-      
-      </div>
-      <div className='content' >
-      <Card />
-      <Card /> 
-      <Card /> 
       
       
       </div>
+      
+     
+      
+      
       
     </div>
   )
 }
 
-export default Projects
+
