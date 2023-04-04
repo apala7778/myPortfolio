@@ -41,8 +41,9 @@ function App() {
           I look forward to build my skills and contributing to the development of open-source projects,
           I also write technical blogs. Reach me for any Freelance opportunity.
         </div>
-        <div className='mygithub'>
-          <button> my github</button>
+        <div >
+          <form className='mygithub'><button formAction='https://github.com/apala7778'> my github</button></form>
+          
         </div>
       </div> 
       
