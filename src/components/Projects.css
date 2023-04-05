@@ -9,23 +9,28 @@
     margin-bottom: 40px;
     
     
+    
 
 }
-h1{  
+h2{  
    
     display: block;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
     color: rgb(255, 255, 255);
-    font-size: 50px;
+    font-size: 60px;
 }
 
 .content {
-   
+    margin-left: 3px;
+    justify-content: center;
+    
     display: grid;
-    grid-template-columns: 470px 470px 440px;
-    grid-template-rows: auto;
+    
+     grid-template-columns: 470px 470px 470px;
+    grid-template-rows: auto; 
+    
     
    
  
@@ -33,14 +38,20 @@ h1{
     
 }
 .content > * {
-   margin: 15px;
+   
 }
 
 @media screen and (max-width:600px) {
     .content {
-        padding: -10%;
+        width: 100%;
+        /* padding: -10%; */
         display: flex;
         flex-direction: column;
+        justify-content: center;
         
+        
+    }
+    .content >* {
+        justify-content: center;
     }
 }

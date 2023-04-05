@@ -1,9 +1,10 @@
 .techno {
     margin: 0;
-    padding: 10px;
+    
     width: 100%;
     
-    margin-top: 700px;
+    
+     margin-top: 700px; 
     box-sizing: border-box;
     background: #00031e;
     color: white;
@@ -16,7 +17,7 @@
 
 h1 {
     text-align: center;
-    font-size: 50px;
+    font-size: 55px;
 }
 .cards-1 , .cards-2 {
     display: flex;
@@ -25,10 +26,10 @@ h1 {
     margin-bottom: 20px;
 }
 .cards-1 {
-    padding-left: 10vh;
+    
 }
 .cards-2 {
-   padding-left: 10vh;
+   
 }
 
 .carde {
@@ -39,17 +40,34 @@ h1 {
       linear-gradient(45deg,rgb(177, 30, 221) , rgb(17, 212, 247)); 
     background-clip: padding-box, border-box;
     background-origin: padding-box, border-box;
+    box-shadow:  4px 5px 10px 3px rgba(154, 216, 240, 0.3);
     width: 100px;
     height: 100px;
 }
 .carde >ion-icon {
+    margin-top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+   align-items: center;
     width: 60px;
     height: 60px;
-    padding: 22%;
+    
 
 }
 .react-icon {
-    padding: 22%;
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+   align-items: center;
+    align-items: center;
+    align-self: center;
+    width: 60px;
+    height: 60px;
+    /* padding: 22%; */
 }
 
 @media screen and (max-width:600px)  {
@@ -70,12 +88,26 @@ h1 {
         padding-left: 2vh;
     }
     .carde >ion-icon {
+       
+        display: flex;
+        align-items: center;
         width: 60px;
         height: 60px;
-        padding: 12%;
+        
     
     }
     .react-icon {
-        padding: 12%;
+        margin-top: 10px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        
+         width: 50px;
+         height: 50px;
+        
+       
+       
+        
+        
     }
 }
