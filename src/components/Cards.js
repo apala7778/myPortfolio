@@ -15,8 +15,8 @@ const Cards = (props) => {
             <p className="stack"> {props.item.tech} </p>
           </div>
           <div className="buttons">
-          <form ><button formAction={props.item.live}  className="button-1" >Live</button> </form>
-          <form><button formAction={props.item.github} className="button-2"> Github</button> </form>
+          <form ><button formAction={props.item.live} formTarget="_blank" className="button-1" >Live</button> </form>
+          <form><button formAction={props.item.github}formTarget="_blank" className="button-2"> GitHub</button> </form>
           </div>
 
         </div>

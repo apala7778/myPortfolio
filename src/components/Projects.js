@@ -23,7 +23,7 @@ export default function Projects () {
             })
   return (
     <div className='project' id='project'>
-      <h1> Projects </h1>
+      <h2> Projects </h2>
    
        <div className='content' >
         { cards }

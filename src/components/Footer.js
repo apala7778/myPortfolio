@@ -10,9 +10,9 @@ const Footer = () => {
     <div className="final">
       <div className="last">
             <div className="free"> Feel Free to contact me</div>
-            <div>
+            <div className="last-two">
             
-            <a
+            <a target="_blank"
                 className="email"
                 href="mailto:apalagupta769@gmail.com?
         &subject=Feedback from Simplilearn Support Team
