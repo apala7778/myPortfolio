@@ -8,6 +8,7 @@
     
     scroll-behavior: smooth;
     cursor: pointer;
+  
     
     
 }
@@ -20,6 +21,7 @@
     
    
     color: white;
+
 }
 .portfolio {
     
@@ -29,6 +31,7 @@
 
 }
 .nav {
+  
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -119,8 +122,9 @@
     flex-direction: column;
     justify-content: center;
     width: 50%;
-    padding-left: 7vh;
-    padding-top: 15px;
+    padding-left: 30px;
+    margin-top: 15px;
+  
   
     
 }
@@ -145,7 +149,8 @@
 }
 
 .about {
-    width: 70%;
+    width: 90%;
+   
     font-size: 17px;
     color: rgb(171, 167, 167);
     letter-spacing: 0.2px;
@@ -157,9 +162,11 @@
 .mygithub {
     padding: 10px;
     cursor: pointer;
+    
 }
 
 .mygithub > button {
+ 
     display: block;
     font-size: 15px;
     
@@ -226,10 +233,17 @@
     
 
    @media screen and (max-width:700px) {
-     
+       .header{
+        width: 100%;
+        
+        
+       }
       .menu {
+        width: 100%;
+        margin-left: 0px;
         flex-direction: column;
         justify-content: center;
+       
       }
       
       .nav {
@@ -240,6 +254,8 @@
          width: 100%;
         flex-direction: column;
         justify-content: center;
+        overflow: hidden;
+        
       }
 
       
@@ -276,15 +292,23 @@
       .hero {
         flex-direction: column;
       }
+      .mid {
+        padding-left:20px;
+         width: 90%;
+
+         justify-content: center;
+      }
 
       .heading , .highlighting {
-        width: 40vh;
-
+        /* width: 40vh; */
+       
+        justify-content: center;
+         flex-wrap: wrap;
         font-size: 40px;
       }
       .about {
         font-size: 14px;
-        width: 40vh;
+        /* width: 40vh; */
         flex-wrap: wrap;
         text-align:justify;
        
