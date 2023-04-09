@@ -8,6 +8,9 @@ import {BsTwitter} from 'react-icons/bs';
 import {BsLinkedin} from 'react-icons/bs';
 import { BrowserRouter } from 'react-router-dom';
 import {HashLink as Link} from 'react-router-hash-link';
+import {FaBlogger} from 'react-icons/fa';
+import {GoProject} from 'react-icons/go';
+import {FaProjectDiagram} from 'react-icons/fa';
 
 
 
@@ -18,13 +21,20 @@ function App() {
   return (
    <BrowserRouter>
     <div className="header">
-      <div>
+      <div className='navbar'>
       <div className="menu">
         <div className="portfolio">Portfolio.</div>
         <div  className="nav">
-          <div className="nav-projects"><Link to="#project" smooth={true} >Projects</Link></div>
-          <div className="nav-tech"> <Link to='#tech' smooth={true} >Technologies</Link>  </div>
-          <div className="nav-social"> <a href="https://apalawrites.hashnode.dev/" target='_blank'  className='blog'>Blogs</a></div>
+          <div className="nav-projects"><Link to="#project" smooth={true} >
+            <GoProject  size='1.4rem' color='white' className="navbar-icon" />
+            Projects</Link></div>
+          <div className="nav-tech"> <Link to='#tech' smooth={true} >
+            <FaProjectDiagram size='1.4rem' color='white' className="navbar-icon" />
+                Technologies
+            </Link>  </div>
+          <div className="nav-social"> <a href="https://apalawrites.hashnode.dev/" target='_blank'  className='blog'>
+          <FaBlogger  size='1.4rem' color='white' className="navbar-icon" />
+            Blogs</a></div>
            </div>
         <div className="icons">
         <a href="https://github.com/apala7778" target='_blank'><AiFillGithub size='1.7rem' color='white' /></a>
