@@ -3,6 +3,10 @@
    padding: 0;
     background: #00031e;
     width: 100%;
+    height: 30vh;
+  
+    
+    
   
   box-sizing: border-box;
  
@@ -10,14 +14,54 @@
   
   
 }
+
+
+  
 .last {
+    height: 20%;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     margin-top: 7%;
-    margin-bottom: 5%;
+    margin-bottom: 2%;
+    z-index: 2;
+    
+    overflow: hidden;
     
 }
+section {
+    top: 0;
+    position: relative;
+    height:10vh;
+    width: 100%;
+    
+    background-color: #00031e;
+   
+    
+    
+  }
+  
+
+  .curve {
+    position: absolute;
+    top:10vh;
+    left: 0;
+    height: 100px;
+    width: 100%;
+    background: #00031e url('../wavetop.png');
+    
+    background-size: 2000px 100px;
+    animation: ani_wave 5s linear infinite;
+  }
+
+  @keyframes ani_wave {
+    0% {
+        background-position-x: 2000px;
+    }
+    100% {
+        background-position-x: 0;
+    }
+  }
 
 .free {
     
@@ -34,7 +78,7 @@
     text-align: center;
     margin: 0px 10px 10px ;
     text-decoration: none;
-    color: gray;
+    color: rgb(101, 99, 99);
 
 }
 .email:hover {
