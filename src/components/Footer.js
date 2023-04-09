@@ -28,7 +28,12 @@ const Footer = () => {
         <a href="https://twitter.com/apalagupta4" target='_blank' ><BsTwitter size='1.5rem' color='white' /></a>
         <a href="https://www.linkedin.com/in/apala-g-33765b226" target='_blank' ><BsLinkedin size='1.5rem' color='white' /></a>
             </div>
+
       </div>
+      <section>
+        <div className="curve" ></div>
+        </section>
+      
     </div>
   );
 };
